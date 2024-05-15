@@ -1,0 +1,25 @@
+.custom-navbar {
+    display: flex;
+    justify-content: space-between;
+    background-color: #343a40;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 1000;
+}
+
+.custom-navbar .nav-center {
+    margin: 0 auto;
+}
+.custom-navbar .nav-center .nav-link {
+    margin: 0 30px;
+}
+.custom-navbar .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.navbarScrollingDropdown{
+    color: white;
+    background-color: black;
+}

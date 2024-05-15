@@ -1,0 +1,23 @@
+.image-row {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    margin-left: 100px;
+    margin-right: 100px;
+
+}
+.image-container {
+    margin: 10px;
+    text-align: center;
+}
+
+.image-container img {
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+}
+
+.image-container p {
+    margin-top: 10px;
+}

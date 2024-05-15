@@ -1,0 +1,24 @@
+.image-with-text-container {
+    display: flex;
+    align-items: flex-start;
+}
+
+.image-container {
+    position: relative;
+    flex: 0 0 auto;
+    margin-right: 20px; /* Adjust the spacing between image and text */
+}
+
+.image {
+    max-width: 100%;
+    border: 2px solid #ccc; /* Example border */
+    border-radius: 10px; /* Example border radius */
+}
+
+.text-container {
+    flex: 1;
+}
+
+.text {
+    margin: 0;
+}
