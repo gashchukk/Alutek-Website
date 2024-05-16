@@ -1,7 +1,7 @@
 .custom-navbar {
     display: flex;
     justify-content: space-between;
-    background-color: #343a40;
+    background-color: white;
     position: fixed;
     top: 0;
     width: 100%;
@@ -20,6 +20,6 @@
     align-items: center;
 }
 .navbarScrollingDropdown{
-    color: white;
+    color: black;
     background-color: black;
 }

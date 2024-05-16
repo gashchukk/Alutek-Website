@@ -10,10 +10,10 @@ function NavBarLogo() {
     return (
         <Navbar className="custom-navbar">
             <Container>
-                <Navbar.Brand href="/" style={{color: "white"}}>Alutek</Navbar.Brand>
+                <Navbar.Brand href="/" style={{color: "black"}}>Alutek</Navbar.Brand>
                 <Nav className="nav-center">
-                    <Nav.Link href="/aboutus" style={{color: "white"}}>About Us</Nav.Link>
-                    <Nav.Link href="/contacts"style={{color: "white"}}>Contacts</Nav.Link>
+                    <Nav.Link href="/" style={{color: "black"}}>About Us</Nav.Link>
+                    <Nav.Link href="/contacts"style={{color: "black"}}>Contacts</Nav.Link>
                     <NavDropdown style={{color: "white"}} title="Catalogue" id="navbarScrollingDropdown">
                         <NavDropdown.Item href="/catalogue">Розсувні Системи до шаф купе</NavDropdown.Item>
                         <NavDropdown.Item href="/catalogue">Алюмінієвий рамковий профіль </NavDropdown.Item>

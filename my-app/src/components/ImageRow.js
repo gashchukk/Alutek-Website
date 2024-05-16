@@ -10,11 +10,11 @@ const ImageRow = () => {
                 <h2 style={{color: "white"}}>Років на ринку</h2>
             </div>
             <div className="image-container">
-                <CountUp startCount={40} targetCount={100} />
+                <CountUp startCount={800} targetCount={1000} />
                     <h2 style={{color: "white"}}>Постійних клієнтів</h2>
             </div>
             <div className="image-container">
-                <CountUp startCount={800} targetCount={1000}/>
+                <CountUp startCount={49800} targetCount={50000}/>
                 <h2 style={{color: "white"}}>Схвальних відгуків</h2>
             </div>
 
