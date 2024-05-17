@@ -4,13 +4,13 @@ import ImageRow from "../ImageRow";
 import ImageWithText from "../ImageWithText";
 import ImageFrames from "../ImageFrames";
 import PhoneNumberPopup from "../PhoneNumberPopup";
-import ChatPopup from "../ChatPopup";
+import CustomerSupport from "../CustomerSupport";
 function Main() {
     return(
         <>
             <MainBanner/>
+            <CustomerSupport/>
             <PhoneNumberPopup delay={5000}/>
-            <ChatPopup />
             <div style={{backgroundColor: "black"}}>
                 <h1 style={{display: "flex", justifyContent: "center", color: "white", padding: "50px"}}> Чому ми?</h1>
                 <div style={{ padding: "30px"}}><ImageRow/></div>
