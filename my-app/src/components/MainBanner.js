@@ -1,5 +1,4 @@
 import React from 'react';
-import ImageRow from "./ImageRow";
 const MainBanner = () => {
     return (
         <>

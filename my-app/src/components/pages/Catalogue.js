@@ -1,8 +1,13 @@
 import React from 'react';
 
+import CatalogueLayout from "../CatalogueLayout";
 function Catalogue() {
+
     return(
-        <h1>Catalogue</h1>
+        <>
+        <h1 style={{ display:"flex", justifyContent:"center"}}>Розсувні системи</h1>
+        <CatalogueLayout/>
+        </>
     );
 }
 
