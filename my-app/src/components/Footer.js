@@ -21,18 +21,15 @@ const Footer = () => {
                         <h5>Quick Links</h5>
                         <ul className="list-unstyled">
                             <li>
-                                <a href="/">Головна</a>
-                            </li>
-                            <li>
-                                <a href="#aboutus">Про нас</a>
+                                <a href="/">Про нас</a>
                             </li>
                             <li>
                                 <NavDropdown style={{ color: "black" }} title="Каталог" id="navbarScrollingDropdown">
                                     <NavDropdown.Item href="/catalogue">Розсувні Системи до шаф купе</NavDropdown.Item>
-                                    <NavDropdown.Item href="/catalogue">Алюмінієвий рамковий профіль </NavDropdown.Item>
-                                    <NavDropdown.Item href="/catalogue">Фурнітура</NavDropdown.Item>
+                                    <NavDropdown.Item href="/frameprofile">Алюмінієвий рамковий профіль </NavDropdown.Item>
+                                    <NavDropdown.Item href="/furniture">Фурнітура</NavDropdown.Item>
                                     <NavDropdown.Divider />
-                                    <NavDropdown.Item href="/catalogue"> Види алюмінієвих меблевих систем </NavDropdown.Item>
+                                    <NavDropdown.Item href="/systemtypes"> Види алюмінієвих меблевих систем </NavDropdown.Item>
                                 </NavDropdown>
                             </li>
                             <li>

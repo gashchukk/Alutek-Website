@@ -23,7 +23,7 @@ const CustomerSupport = () => {
 
     const sendMessage = async () => {
         if (inputValue.trim() !== '') {
-            const message = `Customer Support: ${inputValue}`;
+            const message = `Client: ${inputValue}`;
 
             // Emit the message to the socket server
             socket.emit('chat message', message);
@@ -42,7 +42,7 @@ const CustomerSupport = () => {
                     throw new Error('Network response was not ok');
                 }
 
-                // Clear the input field after sending the message
+                // Clear the input after message sent
                 setInputValue('');
             } catch (error) {
                 console.error('Error sending message:', error);

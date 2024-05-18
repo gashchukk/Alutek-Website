@@ -43,7 +43,10 @@ function SystemTypes() {
     ];
     return(
         <>
-            <h1 style={{display: "flex", justifyContent: "center", boxShadow: '0 4px 8px rgba(0, 0, 0, 0.1)',
+            <h1 style={{
+                display: "flex",
+                justifyContent: "center",
+                boxShadow: '0 4px 8px rgba(0, 0, 0, 0.1)',
             }}>Види Систем</h1>
             <div style={{
                 borderRadius: '15px',
@@ -52,10 +55,9 @@ function SystemTypes() {
                 padding: '20px'
             }}>
 
-                <Row xs={1} sm={2} md={2} lg={4} className="g-4"
-                     style={{ display: "flex", justifyContent: "space-between", padding: "100px", marginBottom: "50px" }}>
+                <Row xs={1} sm={2} md={2} lg={4} className="g-4 justify-content-center">
                     {cardData.map((card) => (
-                        <Col key={card.id}>
+                        <Col key={card.id} className="mx-auto">
 
                             <Card style={{
                                 width: '120px',

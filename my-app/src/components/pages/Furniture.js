@@ -63,17 +63,15 @@ function Furniture() {
                 padding: '20px'
             }}>
 
-                <Row xs={1} sm={2} md={2} lg={5} className="g-4"
-                     style={{ display: "flex", justifyContent: "space-between", padding: "100px", marginBottom: "50px" }}>
+                <Row xs={1} sm={2} md={3} lg={4} className="g-2"
+                     style={{ display: "flex", justifyContent: "space-between", padding: "0px", marginBottom: "50px" }}>
                     {cardData.map((card) => (
-                        <Col key={card.id}>
+                        <Col key={card.id} style={{ display: 'flex', justifyContent: 'center', alignItems: 'center' }}>
 
                             <Card style={{
-                                width: '120px',
+                                width: 'auto', // Remove fixed width
                                 display: 'flex',
                                 flexDirection: 'column',
-                                alignItems: 'center',
-                                justifyContent: 'center',
                                 borderRadius: '15px',
                                 boxShadow: '0 4px 8px rgba(0, 0, 0, 0.1)',
                                 backgroundColor: '#fff'
@@ -86,6 +84,7 @@ function Furniture() {
                                     justifyContent: 'center',
                                     padding: '10px 0'
                                 }}>
+                                    {/* Add card title or content here if needed */}
                                 </Card.Body>
                             </Card>
                         </Col>

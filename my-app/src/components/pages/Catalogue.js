@@ -78,35 +78,35 @@ function Catalogue() {
                 padding: '20px'
             }}>
 
-            <Row xs={1} sm={2} md={2} lg={6} className="g-4"
-                 style={{ display: "flex", justifyContent: "space-between", padding: "100px", marginBottom: "50px" }}>
-                {cardData.map((card) => (
-                    <Col key={card.id}>
+                <Row xs={1} sm={2} md={2} lg={6} className="g-4"
+                     style={{ display: "flex", justifyContent: "space-between" }}> {/* Remove padding from Row */}
+                    {cardData.map((card) => (
+                        <Col key={card.id}>
 
-                        <Card style={{
-                            width: '120px',
-                            display: 'flex',
-                            flexDirection: 'column',
-                            alignItems: 'center',
-                            justifyContent: 'center',
-                            borderRadius: '15px', // Rounded corners
-                            boxShadow: '0 4px 8px rgba(0, 0, 0, 0.1)', // Shadow effect
-                            backgroundColor: '#fff' // Background color
-                        }}>
-                            <Card.Img variant="top" src={card.imageUrl} style={{ width: '100px' }} />
-                            <Card.Body style={{
+                            <Card style={{
+                                width: 'auto', // Remove fixed width
                                 display: 'flex',
                                 flexDirection: 'column',
                                 alignItems: 'center',
                                 justifyContent: 'center',
-                                padding: '10px 0'
+                                borderRadius: '15px',
+                                boxShadow: '0 4px 8px rgba(0, 0, 0, 0.1)',
+                                backgroundColor: '#fff'
                             }}>
-                                <Card.Title>{card.title}</Card.Title>
-                            </Card.Body>
-                        </Card>
-                    </Col>
-                ))}
-            </Row>
+                                <Card.Img variant="top" src={card.imageUrl} style={{ width: '100px' }} />
+                                <Card.Body style={{
+                                    display: 'flex',
+                                    flexDirection: 'column',
+                                    alignItems: 'center',
+                                    justifyContent: 'center',
+                                    padding: '10px 0'
+                                }}>
+                                    <Card.Title>{card.title}</Card.Title>
+                                </Card.Body>
+                            </Card>
+                        </Col>
+                    ))}
+                </Row>
             </div>
             <h2 style={{display: "flex", justifyContent: "center", marginTop:"30px"}}>Кольори в наявності</h2>
             <div style={{display: "flex", justifyContent: "center"}}>

@@ -60,16 +60,14 @@ function FrameProfile() {
             }}>
 
                 <Row xs={1} sm={2} md={2} lg={4} className="g-4"
-                     style={{ display: "flex", justifyContent: "space-between", padding: "100px", marginBottom: "50px" }}>
+                     style={{ display: "flex", justifyContent: "space-between", padding: "0px", marginBottom: "50px" }}> {/* Remove padding from Row */}
                     {cardData.map((card) => (
-                        <Col key={card.id}>
+                        <Col key={card.id} style={{ display: 'flex', justifyContent: 'center', alignItems: 'center' }}> {/* Center Col */}
 
                             <Card style={{
-                                width: '120px',
+                                width: 'auto', // Remove fixed width
                                 display: 'flex',
                                 flexDirection: 'column',
-                                alignItems: 'center',
-                                justifyContent: 'center',
                                 borderRadius: '15px',
                                 boxShadow: '0 4px 8px rgba(0, 0, 0, 0.1)',
                                 backgroundColor: '#fff'

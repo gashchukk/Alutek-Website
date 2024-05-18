@@ -21,7 +21,7 @@
     justify-content: space-between;
     align-items: center;
     padding: 10px;
-    background-color: #007bff;
+    background-color: #636363;
     color: #ffffff;
     border-top-left-radius: 5px;
     border-top-right-radius: 5px;
@@ -71,7 +71,7 @@
 .input-container button {
     margin-left: 10px;
     padding: 5px 10px;
-    background-color: #007bff;
+    background-color: #636363;
     color: #fff;
     border: none;
     border-radius: 3px;
